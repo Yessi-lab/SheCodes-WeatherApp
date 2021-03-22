@@ -1,0 +1,90 @@
+body {
+  background-image: #c3cfe2;
+  font-family: "Hind Guntur", sans-serif;
+}
+
+form {
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  line-height: 2.5;
+  width: 145px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+p {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.btn {
+  width: 65px;
+  margin: 5px 0px;
+}
+
+.btn-dark {
+  font-size: 12px;
+  width: 80px;
+}
+.card {
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.card-img {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 400px;
+  max-width: 700px;
+}
+
+.textWeather {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.textWeather i {
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.forecast {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  padding: 40px;
+}
