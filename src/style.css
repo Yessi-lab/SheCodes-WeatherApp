@@ -15,6 +15,10 @@ input {
   line-height: 2.5;
 }
 
+button {
+  padding: 10px;
+}
+
 h1 {
   font-size: 18px;
 }
@@ -58,9 +62,6 @@ li {
   padding: 15px;
 }
 
-.btn dark {
-  padding-right: 10px;
-}
 .info {
   text-align: center;
   padding: 40px;
