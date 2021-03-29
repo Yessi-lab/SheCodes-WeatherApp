@@ -34,18 +34,11 @@ li {
 
 .weatherApp {
   max-width: 400px;
+  margin: 0 auto;
   padding-top: 20px;
+  border-style: 1px solid #000;
 }
 
-.btn {
-  width: 65px;
-  margin: 5px 0px;
-}
-
-.btn-dark {
-  font-size: 12px;
-  width: 80px;
-}
 .card {
   background-color: transparent;
   border: none;
