@@ -58,6 +58,9 @@ li {
   padding: 15px;
 }
 
+.btn btn-dark {
+  padding-right: 10px;
+}
 .info {
   text-align: center;
   padding: 40px;
