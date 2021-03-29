@@ -3,6 +3,7 @@ body {
 }
 
 form {
+  text-align: center;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-top: 40px;
@@ -34,33 +35,16 @@ li {
 
 .weatherApp {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding-top: 20px;
-  border-style: 1px solid #000;
-}
-
-.card {
-  background-color: transparent;
-  border: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 500px;
-}
-
-.card-img {
+  border-style: solid;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 400px;
-  max-width: 700px;
 }
 
 .textWeather {
-  padding-top: 20px;
+  padding: 20px;
   color: #000;
+  text-align: center;
 }
 
 .textWeather i {
@@ -69,11 +53,9 @@ li {
   padding-bottom: 15px;
 }
 
-.forecast {
-  padding-top: 20px;
-  font-size: 20px;
-  color: #000;
+.row {
   text-align: center;
+  padding: 15px;
 }
 
 .info {
