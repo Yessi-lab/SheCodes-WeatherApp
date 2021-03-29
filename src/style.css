@@ -1,5 +1,4 @@
 body {
-  background-image: #c3cfe2;
   font-family: "Hind Guntur", sans-serif;
 }
 
@@ -13,7 +12,6 @@ input {
   border-radius: 5px;
   border: none;
   line-height: 2.5;
-  width: 145px;
 }
 
 h1 {
@@ -34,8 +32,9 @@ li {
   padding: 10px;
 }
 
-.container {
-  padding-top: 100px;
+.weatherApp {
+  max-width: 400px;
+  padding-top: 20px;
 }
 
 .btn {
@@ -68,11 +67,11 @@ li {
 
 .textWeather {
   padding-top: 20px;
-  color: #fff;
+  color: #000;
 }
 
 .textWeather i {
-  color: #fff;
+  color: #000;
   font-size: 50px;
   padding-bottom: 15px;
 }
@@ -80,7 +79,7 @@ li {
 .forecast {
   padding-top: 20px;
   font-size: 20px;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 

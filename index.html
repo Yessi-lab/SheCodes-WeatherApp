@@ -17,65 +17,50 @@
 <body>
   <div class="container">
     <div class="weatherApp">
-      <div class="card">
-         <img class="card-img" src="img/clouds.jpg" alt="clouds">
-           <div class="card-img-overlay">
-             <div class="row justify-content-center">
-                <div class="col-6">
-                  <form id="search-form">
-                  <input id="search-input" class="text" placeholder="Please enter city..." autofocus="on" autocomplete="off"/>
-                  <input type="submit" value="Search" class="btn btn-light" id="search-city" />
-                  <button type="button" class="btn btn-dark" id="current-location">Locate me!</button>
-                  <div class="textWeather">
-                  <i class="fas fa-cloud-sun"></i>
-                  <h1 id="date">Tuesday 13:23</h1>
-                  
-                  <h2 class="city" id="city"><em>Zürich</em></h2>
-                  <p class="degrees"><span id="temperature"><strong>18</strong> </span> <a href="#" id="celsius-link">°C </a> | <a href="#" id="fahrenheit-link">°F</a> - <span id="description">cloudy</span></p>
-                 
-                  </div>
-                  </div>
+      <form id="search-form">
+      <input id="search-input" class="text" placeholder="Please enter city..." autofocus="on" autocomplete="off"/>
+      <input type="submit" value="Search" class="btn btn-light" id="search-city" />
+      <button type="button" class="btn btn-dark" id="current-location">Locate me!</button>
+      <div class="textWeather">
+      <i class="fas fa-cloud-sun"></i>
+      <h1 id="date">Tuesday 13:23</h1>
+      <h2 class="city" id="city"><em>Zürich</em></h2>
+      <p class="degrees"><span id="temperature"><strong>18</strong> </span> <a href="#" id="celsius-link">°C </a> | <a href="#" id="fahrenheit-link">°F</a> - <span id="description">cloudy</span></p>
 
-              <div class="col-3">
-                <div class="forecast">
-                <ul>
-                  <li>
-                    <i class="fas fa-sun"></i> <h5 class="card-title">10°</h5> 
-                    <h6 class="card-subtitle mb-2 text muted">Mon</h6>
-                 </li>
-                 <li>
-                   <i class="fas fa-snowflake"></i>
-                   <h5 class="card-title">0°C</h5>
-                   <h6 class="card-subtitle mb-2 text muted">Tues</h6>
-                 </li>
-                 <li>
-                   <i class="fas fa-snowflake"></i>
-                   <h5 class="card-title">2°C</h5>
-                   <h6 class="card-subtitle mb-2 text muted">Wed</h6>
-                  </li>
-               </ul>
-                  </div>
-               </div>
-              <div class="col-3">
-                <div class="forecast">
-                  <ul>
-                    <li>
-                      <i class="fas fa-sun"></i>
-                      <h5 class="card-title">10°</h5>
-                      <h6 class="card-subtitle mb-2 text muted">Thur</h6>
-                    </li>
-                    <li>
-                      <i class="fas fa-snowflake"></i>
-                      <h5 class="card-title">0°C</h5>
-                      <h6 class="card-subtitle mb-2 text muted">Fri</h6>
-                    </li>
-                    <li>
-                      <i class="fas fa-snowflake"></i>
-                      <h5 class="card-title">2°C</h5>
-                      <h6 class="card-subtitle mb-2 text muted">Sat</h6>
-                    </li>
-                  </ul>
-                </div>
+      <div class="row">
+        <div class="col">
+          <i class="fas fa-sun"></i> 
+          <h5 class="card-title">10°</h5> 
+          <h6 class="card-subtitle mb-2 text muted">Mon</h6>
+        </div>
+        <div class="col">
+          <i class="fas fa-snowflake"></i>
+          <h5 class="card-title">0°C</h5>
+          <h6 class="card-subtitle mb-2 text muted">Tues</h6>
+        </div>
+        <div class="col">
+          <i class="fas fa-snowflake"></i>
+          <h5 class="card-title">2°C</h5>
+          <h6 class="card-subtitle mb-2 text muted">Wed</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i class="fas fa-sun"></i>
+          <h5 class="card-title">10°</h5>
+          <h6 class="card-subtitle mb-2 text muted">Mon</h6>
+        </div>
+        <div class="col">
+          <i class="fas fa-sun"></i>
+          <h5 class="card-title">10°</h5>
+          <h6 class="card-subtitle mb-2 text muted">Mon</h6>
+        </div>
+        <div class="col">
+          <i class="fas fa-sun"></i>
+          <h5 class="card-title">10°</h5>
+          <h6 class="card-subtitle mb-2 text muted">Mon</h6>
+        </div>
+      </div>
               </div>
           </div>
         </div>
