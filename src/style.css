@@ -1,5 +1,6 @@
 body {
-  font-family: "Hind Guntur", sans-serif;
+  font-family: "Lato", sans-serif;
+  background-color: #fbfbf8;
 }
 
 form {
@@ -23,7 +24,6 @@ h1 {
 
 h2 {
   font-size: 20px;
-  font-family: monospace;
 }
 
 p {
