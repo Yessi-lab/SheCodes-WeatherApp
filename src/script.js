@@ -22,7 +22,8 @@ function showTemperature(response) {
   let temperatureText = document.querySelector("#temperature");
   temperatureText.innerHTML = `${temperature}`;
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#description").innerHTML = response.data.weather[0].main;
+  document.querySelector("#description").innerHTML = response.data.weather[0].description;
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
 }
 
 function searchCity (city) {

@@ -19,7 +19,6 @@ button {
 
 h1 {
   font-size: 18px;
-  padding: none;
 }
 
 h2 {
@@ -64,4 +63,8 @@ li {
 .info {
   text-align: center;
   padding: 40px;
+}
+
+#description {
+  text-transform: capitalize;
 }
