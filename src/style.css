@@ -79,8 +79,8 @@ a:link {
   padding: 40px;
 }
 
-.degrees {
-  position: relative;
+.weather-forecast-temperature-min {
+  color: grey;
 }
 
 #description {
