@@ -19,7 +19,7 @@ return `${day} ${hour}:${minutes}`;
 
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast")
-  forecastElement.innerHTML = `<div class="col">
+  forecastElement.innerHTML = `<div class="col-3">
           <div class="weather-forecast-date">Mon</div>
           <img src="http://openweathermap.org/img/wn/10d@2x.png" class="forecast-icon" width="36" />
           <div class="weather-forecast-temperature"><span class="weather-forecast-temperature-min">10°</span> | <span
