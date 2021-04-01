@@ -65,6 +65,10 @@ li {
   padding: 40px;
 }
 
+.degrees {
+  position: relative;
+}
+
 #description {
   text-transform: capitalize;
 }
