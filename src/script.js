@@ -20,10 +20,12 @@ return `${day} ${hour}:${minutes}`;
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureText = document.querySelector("#temperature");
+  let iconElement = document.querySelector("#icon");
   temperatureText.innerHTML = `${temperature}`;
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 
 function searchCity (city) {
