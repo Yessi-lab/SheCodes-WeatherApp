@@ -35,6 +35,20 @@ li {
   padding: 10px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.active {
+  color: #000;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .weatherApp {
   max-width: 400px;
   margin: 20px auto;

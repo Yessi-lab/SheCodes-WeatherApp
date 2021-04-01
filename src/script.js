@@ -18,6 +18,7 @@ return `${day} ${hour}:${minutes}`;
 }
 
 function showTemperature(response) {
+  celsiusTemperature = response.data.main.temp;
   let temperature = Math.round(response.data.main.temp);
   let temperatureText = document.querySelector("#temperature");
   let iconElement = document.querySelector("#icon");
@@ -59,14 +60,21 @@ function getCurrentPosition (event) {
 function convertToFahrenheit (event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 66;
+  celsiusLink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
+  let fahrenheitTemperature = (celsiusTemperature*9/5)+32;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function convertToCelsius (event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 19;
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
+
+let celsiusTemperature = null;
 
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
