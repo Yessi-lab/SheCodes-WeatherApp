@@ -33,6 +33,7 @@ function showTemperature(response) {
   let temperatureText = document.querySelector("#temperature");
   let iconElement = document.querySelector("#icon");
   temperatureText.innerHTML = `${temperature}`;
+  displayForecast();
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
