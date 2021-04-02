@@ -14,7 +14,7 @@ if (minutes < 10) {
   minutes = `0${minutes}`;
 }
 
-return `${day} ${hour}:${minutes}`;
+return `${day}, ${hour}:${minutes}`;
 }
 
 function displayForecast() {
@@ -44,6 +44,7 @@ function showTemperature(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind-speed").innerHTML = Math.round(3.6*(response.data.wind.speed));
   iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 
