@@ -60,6 +60,7 @@ a:link {
 .textWeather {
   color: #000;
   text-align: center;
+  padding: 0px 0px 10px 0px;
 }
 
 .textWeather i {
@@ -70,6 +71,7 @@ a:link {
 
 .dailyConditions {
   padding: 0px 3px;
+  font-size: 12px;
   font-weight: bolder;
 }
 
