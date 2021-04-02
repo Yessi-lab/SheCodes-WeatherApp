@@ -98,6 +98,7 @@ a:link {
 
 .dailyConditions {
   text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .weather-forecast-date {
