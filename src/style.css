@@ -69,7 +69,8 @@ a:link {
 }
 
 .dailyConditions {
-  padding: 0px 5px;
+  padding: 0px 3px;
+  font-weight: bolder;
 }
 
 .degrees {
