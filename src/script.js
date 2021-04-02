@@ -14,7 +14,7 @@ if (minutes < 10) {
   minutes = `0${minutes}`;
 }
 
-return `${day}, ${hour}:${minutes}`;
+return `Last updated on ${day}, ${hour}:${minutes}`;
 }
 
 function formatDay (timestamp) {
